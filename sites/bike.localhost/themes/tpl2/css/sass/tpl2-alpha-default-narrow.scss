@@ -1,0 +1,323 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+ /*==========GENERAL===========*/
+
+#section-content .container-12 .grid-6 {
+	max-width:480px;
+	width:50%;
+	float:left;
+}
+
+/*==========HEADER==========*/
+
+	/*=====SEARCH BAR=====*/
+
+	#region-user-second {
+		#block-block-2{
+			position:relative;
+			#templesearch {
+				.form-item-search-block-form {
+					position: relative;
+					padding: 0;
+					width: 8em;
+					top:0;
+					right:0;
+					margin-right: 0;
+					display:block;
+					background: none;
+					border:none;
+					margin-left: 0;
+				}
+				input[type="text"] {
+					line-height: 1em;
+					width: 100%;
+					font-size: .688em;
+					position: relative;
+					z-index: 2;
+					background: #fcfcfc;
+					border: 1px solid #DDD;
+					border-top: none;
+					color: #777777;
+					height:3.2em;
+					border-radius:0; 
+				}
+				input[type="submit"], input[type="button"] {
+					display: block;
+					width: 2em; 
+					height: 1.9em;
+					padding:0;
+					margin: 0;
+				}
+				label {
+					display: none;
+				}
+				.form-actions {
+					position: absolute;
+					top: .4em;
+					right: .3em;
+					margin: 0;
+					cursor: pointer;
+					padding: 0;
+					border:none;
+					box-shadow: none;
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	/*==========MAIN NAVIGATION==========*/
+
+	#zone-menu-wrapper {	
+		#region-menu {
+			#superfish-1 {
+				li {
+					a {
+						font-size: .95em;
+					}
+				}
+			}
+		}
+	}
+
+/*==========HOMEPAGE PHOTO AREA==========*/
+
+#region-preface-first {
+	.block {
+		.block-inner {
+			.field-image,
+			.home_image_content_wrapper {
+				position:absolute;
+				top:0;
+				left:0;
+			}
+			.home_image_content_wrapper {
+				z-index:3;
+				top:7.45%;
+				left:2.5%;
+				width:36%;
+				.home_icon_set_wrapper {
+					width:100%;
+					div {
+						margin-left:3%;
+						width:20%;
+					}
+				}
+				.field-slide-content {
+					font-size:.95em;
+					line-height:1.4em;
+					text-align:justify;
+				}
+			}
+		}
+	}
+}
+
+#region-preface-second {
+	.block {
+		.view-content {
+			ul {
+				margin:0 0 1.2em;
+				li {
+					width:25%;
+					.panel-2col-stacked {
+						padding: 10%;
+						.panel-col-top {
+							.inside {
+								& > a {
+									top:-.2em;
+								}
+								h2 {
+									font-size:1.25em;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#zone-content .grid-6 {
+	.panel-pane {padding-left:1em;}
+	.inside {
+		.panel-pane {
+			padding: 1em 0 1em 2em;
+		}
+		.panel-col-first {
+			width:16%;
+		}
+		.panel-col-last {
+			width:83%;
+		}
+		.panel-col-last .inside {
+			margin-left:.4em;
+		}
+		.panel-col-first .inside {
+			font-size:.85em;
+			margin-top:.2em;
+			padding:.3em .5em;
+			width:1.75em;
+		}
+		h2 {
+			padding-bottom:.3em;
+			margin-bottom:.6em;
+		}
+		h3 {
+			font-size:.95em;
+		}
+		p {
+			font-size:.875em;
+		}
+		ul {
+			.views-row {
+				width:49%;
+				margin-bottom:.5em;
+			}
+			.views-row-even {margin-left:2%}
+		}
+		.view-id-services_icons_and_intro .panel-2col-stacked {
+			background:#f4f4f4;
+			border-radius:.3em;
+			transition: background .5s;
+			-webkit-transition: background .5s;
+			overflow:hidden;
+			&:hover .panel-col-bottom .inside a h3 {
+				top:-1em;
+				color:#ffffff;
+			}
+			&:hover .panel-col-top .inside a div {
+				min-width:50px;
+				min-height:50px;
+			}
+			.panel-col-top .inside,
+			.panel-col-bottom .inside {
+				margin:0;
+			}
+			.panel-col-top .inside a {padding:1em 1em .5em;}
+			.panel-col-bottom .inside a {padding:0 1em 1em;}
+			.panel-col-top {
+				width:auto;
+				.inside {
+					a {
+						position:relative;
+						overflow:hidden;
+						height:5.2em;
+					}
+					div {
+						position:relative;
+						top:.95em;
+						height:1em;
+						width:1em;
+						min-width:70px;
+						min-height:70px;
+						overflow:hidden;
+						margin:0 auto;
+						transition: min-width .5s ease-out, min-height .5s ease-out;
+						-webkit-transition: min-width .5s ease-out, min-height .5s ease-out;
+					}
+					img {
+						width:100%;
+						height:auto;
+					}
+				}
+			}
+			.panel-col-bottom .inside {
+				a {
+					position:relative;
+					height:1.1em;
+					text-align:center;
+					h3 {
+						color:#f4f4f4;
+						position:relative;
+						top:3em;
+						transition: top .5s ease-out, color .5s;
+						-webkit-transition: top .5s ease-out, color .5s;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*==========ADDITIONAL MEDIA QUERIES==========*/
+
+@media (max-width:860px) {
+
+	/*===========GENERAL=========*/
+
+	#section-content .container-12 .grid-6 {
+		max-width:960px;
+		width:100%;
+		float:none;
+	}
+
+	/*==========HOMEPAGE PHOTO AREA==========*/
+
+	#region-preface-first {
+		.block {
+			.node {
+				.home_image_content_wrapper {
+					width:40%;
+					.field-slide-content {
+						font-size:.95em;
+						line-height:1.4em;
+						text-align:justify;
+					}
+				}
+			}
+		}
+	}
+
+	#zone-content .grid-6 {
+		.inside {
+			.panel-pane {
+				padding: 0;
+			}
+			.panel-col-first {
+				width:9%;
+			}
+			.panel-col-last {
+				width:90%;
+			}
+			.view-id-services_icons_and_intro .panel-2col-stacked {
+				background:#4a84ad;
+				transition:none;
+				-webkit-transition:none;
+				&:hover .panel-col-bottom .inside a h3 {
+					top:0;
+				}
+				&:hover .panel-col-top .inside a div {
+					min-width:60px;
+					min-height:60px;
+				}
+				.panel-col-top {
+					.inside {
+						div {
+							top:.95em;
+							min-width:60px;
+							min-height:60px;
+							transition:none;
+							-webkit-transition:none;
+						}
+					}
+				}
+				.panel-col-bottom .inside {
+					a {
+						h3 {
+							color:#ffffff;
+							top:0;
+							transition:none;
+							-webkit-transition:none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}

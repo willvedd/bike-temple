@@ -1,0 +1,50 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+/*==========HEADER==========*/
+
+	/*=====SEARCH BAR=====*/
+
+	#region-user-second {
+		#block-block-2{
+			#templesearch {
+				.form-item-search-block-form {
+					width: 10.625em;
+				}
+			}
+		}
+	}
+
+/*==========HOMEPAGE PHOTO AREA==========*/
+
+#region-preface-first {
+	.block {
+		.block-inner {
+			.field-image,
+			.home_image_content_wrapper {
+				position:absolute;
+				top:0;
+				left:0;
+			}
+			.home_image_content_wrapper {
+				z-index:3;
+				top:7.45%;
+				left:2.5%;
+				width:29%;
+				.home_icon_set_wrapper {
+					width:100%;
+					div {
+						margin-left:3%;
+						width:24%;
+					}
+				}
+				.field-slide-content {
+					font-size:1.05em;
+					line-height:1.5em;
+					text-align:justify;
+				}
+			}
+		}
+	}
+}
