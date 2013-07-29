@@ -1712,14 +1712,15 @@ p {
 			}
 	}
 	.button1{
-		background-color: $purple;
 		@include buttonbg;
+		border: none;
+		background-color: $purple;
 		background-image: url(../images/parking_icon1.png);
 		-moz-transition:background-color .5s, -moz-transform .5s;
 	    -webkit-transition:background-color .5s, -webkit-transform .5s;
 	    -o-transition:background-color .5s,-o-transform .5s;
 	    transition:background-color .5s, transform .5s;
-		color: #2b292d;
+		color: #140029;
 		&:hover{
 			background-color: darken($purple, 20%);
 			background-image: url(../images/parking_icon2.png);
@@ -1727,14 +1728,14 @@ p {
 		}
 	}
 	.button2{
-		background-color: $pea;
 		@include buttonbg;
+		background-color: $pea;
 		background-image: url(../images/map_icon1.png);
 		-moz-transition:background-color .5s, -moz-transform .5s;
 	    -webkit-transition:background-color .5s, -webkit-transform .5s;
 	    -o-transition:background-color .5s, -o-transform .5s;
 	    transition:background-color .5s, transform .5s;
-		color: #3d3d2a;
+		color: #212100;
 		margin: 0 60px;
 		&:hover{
 			background-color: darken($pea, 20%);
@@ -1744,10 +1745,10 @@ p {
 		
 	}
 	.button3{
-		background-color: $sand;
 		@include buttonbg;
+		background-color: $sand;
 		background-image: url(../images/class_icon1.png);
-		color: #6a5823;
+		color: #54461C; 
 		-moz-transition:background-color .5s, -moz-transform .5s;
 	    -webkit-transition:background-color .5s, -webkit-transform .5s;
 	    -o-transition:background-color .5s, -o-transform .5s;
