@@ -2500,7 +2500,7 @@ body.node-type-page .view-cover-image-subpage h1 {
   background-image: url(../images/suboverlay.png);
   background-repeat: repeat;
   background-position: 0 0;
-  padding-left: 8%;
+  padding-left: 8% !important;
   width: 92%;
   position: absolute;
   top: 135px;

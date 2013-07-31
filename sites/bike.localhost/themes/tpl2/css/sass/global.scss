@@ -2036,7 +2036,7 @@ body.node-type-page{
 		h1{
 				@include bebas;
 				@include overlaysub;
-				padding-left: 8%;
+				padding-left: 8% !important;
 				width: 92%;
 				position: absolute;
 				top:135px;
