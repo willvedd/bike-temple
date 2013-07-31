@@ -2036,15 +2036,15 @@ body.node-type-page{
 		h1{
 				@include bebas;
 				@include overlaysub;
-				width: 100%;
+				padding-left: 8%;
+				width: 92%;
 				position: absolute;
-				left: 0;
+				top:135px;
 				color: #FFF;
 				z-index: 1;
 				font-size: 56px !important;
 				margin: 0;
 				padding: 0;
-				padding-left: 90px;
 				line-height: 85px !important;
 		}
 	
