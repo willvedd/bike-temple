@@ -2053,6 +2053,8 @@ body.node-type-page{
 		}
 	}
 	.block-subpage-gallery-block{
+		box-shadow: none;
+		
 		.content{
 			width: 140px;
 			margin-left: auto;
@@ -2063,6 +2065,8 @@ body.node-type-page{
 		}
 		.block-inner{
 			padding-bottom:5px !important;
+			background: none;
+			box-shadow: none;
 		}
 	}
 }

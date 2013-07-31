@@ -2515,19 +2515,25 @@ body.node-type-page .view-cover-image-subpage h1 {
 body.node-type-page .view-cover-image-subpage .field-cover-image {
   position: absolute;
 }
-/* line 2056, sass/global.scss */
+/* line 2055, sass/global.scss */
+body.node-type-page .block-subpage-gallery-block {
+  box-shadow: none;
+}
+/* line 2058, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .content {
   width: 140px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 2061, sass/global.scss */
+/* line 2063, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery {
   margin-bottom: 20px;
 }
-/* line 2064, sass/global.scss */
+/* line 2066, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .block-inner {
   padding-bottom: 5px !important;
+  background: none;
+  box-shadow: none;
 }
 
 	/*
@@ -2548,7 +2554,7 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 	}
 */
 /*==========MISC Bike Temple additions==========*/
-/* line 2090, sass/global.scss */
+/* line 2094, sass/global.scss */
 div.error {
   display: none !important;
 }
