@@ -2029,11 +2029,13 @@ body.node-type-page{
 	}
 
 	#page-title{
+			display: none;
+	}
+	#title{
+			@include bebas;
 			@include overlaysub;
-			width: 870px;
-			height: 85px;
+			width: 100%;
 			position: absolute;
-			top: -150px;
 			left: 0;
 			color: #FFF;
 			z-index: 1;
@@ -2042,14 +2044,10 @@ body.node-type-page{
 			padding: 0;
 			padding-left: 90px;
 			line-height: 85px !important;
-			h1{	
-				@include bebas;
-			}
 	}
+
 	.field-cover-image{
 		position: absolute;
-		top: -286px;
-		left: 0;
 	}
 }
 	/*
