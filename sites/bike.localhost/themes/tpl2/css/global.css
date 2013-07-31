@@ -2527,7 +2527,7 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
 }
 /* line 2064, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .block-inner {
-  padding-bottom: 5px;
+  padding-bottom: 5px !important;
 }
 
 	/*
