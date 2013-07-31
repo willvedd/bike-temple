@@ -2525,6 +2525,10 @@ body.node-type-page .block-subpage-gallery-block .content {
 body.node-type-page .block-subpage-gallery-block .field-gallery {
   margin-bottom: 20px;
 }
+/* line 2064, sass/global.scss */
+body.node-type-page .block-subpage-gallery-block .block-inner {
+  padding-bottom: 5px;
+}
 
 	/*
 .block-cover-image-subpage-block{
@@ -2544,7 +2548,7 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
 	}
 */
 /*==========MISC Bike Temple additions==========*/
-/* line 2087, sass/global.scss */
+/* line 2090, sass/global.scss */
 div.error {
   display: none !important;
 }
