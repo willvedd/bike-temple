@@ -2490,8 +2490,8 @@ body.node-type-page #zone-content {
 body.node-type-page #page-title {
   display: none;
 }
-/* line 2034, sass/global.scss */
-body.node-type-page #title {
+/* line 2036, sass/global.scss */
+body.node-type-page .view-cover-image-subpage h1 {
   font-family: 'BebasNeueRegular';
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -2511,8 +2511,8 @@ body.node-type-page #title {
   padding-left: 90px;
   line-height: 85px !important;
 }
-/* line 2049, sass/global.scss */
-body.node-type-page .field-cover-image {
+/* line 2051, sass/global.scss */
+body.node-type-page .view-cover-image-subpage .field-cover-image {
   position: absolute;
 }
 
@@ -2534,7 +2534,7 @@ body.node-type-page .field-cover-image {
 	}
 */
 /*==========MISC Bike Temple additions==========*/
-/* line 2074, sass/global.scss */
+/* line 2077, sass/global.scss */
 div.error {
   display: none !important;
 }

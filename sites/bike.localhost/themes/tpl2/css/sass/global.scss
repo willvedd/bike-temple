@@ -2031,23 +2031,26 @@ body.node-type-page{
 	#page-title{
 			display: none;
 	}
-	#title{
-			@include bebas;
-			@include overlaysub;
-			width: 100%;
+	
+	.view-cover-image-subpage{
+		h1{
+				@include bebas;
+				@include overlaysub;
+				width: 100%;
+				position: absolute;
+				left: 0;
+				color: #FFF;
+				z-index: 1;
+				font-size: 56px !important;
+				margin: 0;
+				padding: 0;
+				padding-left: 90px;
+				line-height: 85px !important;
+		}
+	
+		.field-cover-image{
 			position: absolute;
-			left: 0;
-			color: #FFF;
-			z-index: 1;
-			font-size: 56px !important;
-			margin: 0;
-			padding: 0;
-			padding-left: 90px;
-			line-height: 85px !important;
-	}
-
-	.field-cover-image{
-		position: absolute;
+		}
 	}
 }
 	/*
