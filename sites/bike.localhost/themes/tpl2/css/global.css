@@ -2517,7 +2517,7 @@ body.node-type-page .view-cover-image-subpage .field-cover-image {
 }
 /* line 2055, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 /* line 2058, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .content {
@@ -2532,8 +2532,8 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
 /* line 2066, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .block-inner {
   padding-bottom: 5px !important;
-  background: none;
-  box-shadow: none;
+  background: none !important;
+  box-shadow: none !important;
 }
 
 	/*

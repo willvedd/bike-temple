@@ -2053,7 +2053,7 @@ body.node-type-page{
 		}
 	}
 	.block-subpage-gallery-block{
-		box-shadow: none;
+		box-shadow: none !important;
 		
 		.content{
 			width: 140px;
@@ -2065,8 +2065,8 @@ body.node-type-page{
 		}
 		.block-inner{
 			padding-bottom:5px !important;
-			background: none;
-			box-shadow: none;
+			background: none !important;
+			box-shadow: none !important;
 		}
 	}
 }
