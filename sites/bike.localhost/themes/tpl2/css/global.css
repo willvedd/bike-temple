@@ -2614,19 +2614,34 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 }
 
 /* line 2155, sass/global.scss */
-.cboxTitle {
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0;
+#colorbox .cboxContent {
+  overflow: visible;
 }
-
 /* line 2158, sass/global.scss */
-.cboxCurrent {
+#colorbox .cboxTitle {
   font-family: 'Droid Sans';
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0;
+  line-height: 15px;
+}
+/* line 2162, sass/global.scss */
+#colorbox .cboxCurrent {
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0;
+  line-height: 15px;
+  left: 35px;
+}
+/* line 2167, sass/global.scss */
+#colorbox #cboxClose {
+  top: -15px;
+  right: -15px;
+}
+/* line 2171, sass/global.scss */
+#colorbox #cboxNext {
+  left: 85px;
 }
 
 	/*

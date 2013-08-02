@@ -2151,12 +2151,26 @@ body.node-type-page{
 	}
 }
 
-
-.cboxTitle{
-	@include droid;
-}
-.cboxCurrent{
-	@include droid;
+#colorbox{	
+	.cboxContent{
+		overflow: visible;
+	}
+	.cboxTitle{
+		@include droid;
+		line-height: 15px;
+	}
+	.cboxCurrent{
+		@include droid;
+		line-height: 15px;
+		left: 35px;
+	}
+	#cboxClose{
+		top: -15px;
+		right: -15px;	
+	}
+	#cboxNext{
+		left: 85px;
+	}
 }
 
 
