@@ -2597,16 +2597,16 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
   height: 140px !important;
   width: 140px !important;
   overflow: hidden;
+  -webkit-transition: box-shadow .5s, .5s ease-in-out;
+  -moz-transition: box-shadow .5s, .5s ease-in-out;
+  -ms-transition: box-shadow .5s, .5s ease-in-out;
+  transition: box-shadow .5s, .5s ease-in-out;
 }
-/* line 2139, sass/global.scss */
-body.node-type-page .block-subpage-gallery-block .field-gallery img:hover {
+/* line 2142, sass/global.scss */
+body.node-type-page .block-subpage-gallery-block .field-gallery:hover {
   box-shadow: 0 0 6px #858585;
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -ms-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
 }
-/* line 2148, sass/global.scss */
+/* line 2146, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .block-inner {
   padding-bottom: 5px !important;
   background: none !important;
