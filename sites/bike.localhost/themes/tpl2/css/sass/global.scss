@@ -343,7 +343,7 @@ p {
 	/*==========UTILITY NAVIGATION==========*/
 
 	#block-menu-block-1 {
-		float:right;
+		float:right !important;
 		clear:none;
 		position:static;
 		#audience_menu_btn {
@@ -462,6 +462,7 @@ p {
 	#region-user-second {
 		#block-block-2{
 			position:relative;
+			float: right;
 			#templesearch {
 				.form-item-search-block-form {
 					position: relative;
@@ -494,6 +495,11 @@ p {
 					height: 1.9em;
 					padding:0;
 					margin: 0;
+					background: url(../images/header-utility-icons.png) no-repeat 0em center;
+					text-indent: 1000em;
+					white-space: nowrap;
+					overflow: hidden;
+					border: none;
 				}
 				label {
 					display: none;
