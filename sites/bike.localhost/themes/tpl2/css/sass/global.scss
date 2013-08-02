@@ -371,6 +371,9 @@ p {
 			height: 2.125em;
 			text-transform: uppercase;
 			box-shadow:inset -1px 0 0 $white, inset 1px 0 0 $white;
+			li{
+				height: 35px;
+			}
 			li a {
 				@include droid;
 				color: #222222;
