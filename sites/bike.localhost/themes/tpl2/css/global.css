@@ -2594,21 +2594,28 @@ body.node-type-page .block-subpage-gallery-block .content {
 /* line 2133, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery {
   margin-bottom: 20px;
+  height: 140px !important;
+  width: 140px !important;
+  overflow: hidden;
 }
-/* line 2136, sass/global.scss */
-body.node-type-page .block-subpage-gallery-block .block-inner {
-  padding-bottom: 5px !important;
-  background: none !important;
-  box-shadow: none !important;
-}
-/* line 2145, sass/global.scss */
-body.node-type-page .field-gallery img:hover {
-  background: url("../../images/gallery-hover-bg.png") repeat;
+/* line 2139, sass/global.scss */
+body.node-type-page .block-subpage-gallery-block .field-gallery img:hover {
   box-shadow: none;
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -ms-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+}
+/* line 2146, sass/global.scss */
+body.node-type-page .block-subpage-gallery-block .field-gallery img:hover {
+  background: url(../images/gallery-hover-bg.png) repeat;
+  background-position: 0 0;
+}
+/* line 2152, sass/global.scss */
+body.node-type-page .block-subpage-gallery-block .block-inner {
+  padding-bottom: 5px !important;
+  background: none !important;
+  box-shadow: none !important;
 }
 
 	/*

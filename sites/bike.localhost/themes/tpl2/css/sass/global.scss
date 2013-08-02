@@ -2132,24 +2132,27 @@ body.node-type-page{
 		}
 		.field-gallery{
 			margin-bottom: 20px;
+			height: 140px !important;
+			width: 140px !important;
+			overflow: hidden;
+			img{
+				&:hover{
+				box-shadow: none;
+				-webkit-transition: .5s ease-in-out;
+				-moz-transition: .5s ease-in-out;
+				-ms-transition: .5s ease-in-out;
+				transition: .5s ease-in-out;
+			}
+			&:hover{
+				background: url(../images/gallery-hover-bg.png) repeat;
+				background-position: 0 0;
+			}
+		}
 		}
 		.block-inner{
 			padding-bottom:5px !important;
 			background: none !important;
 			box-shadow: none !important;
-		}
-	}
-	.field-gallery{
-		img{
-			
-			&:hover{
-			background: url('../../images/gallery-hover-bg.png') repeat;
-			box-shadow: none;
-			-webkit-transition: .5s ease-in-out;
-			-moz-transition: .5s ease-in-out;
-			-ms-transition: .5s ease-in-out;
-			transition: .5s ease-in-out;
-			}
 		}
 	}
 }
