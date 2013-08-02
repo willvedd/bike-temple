@@ -2137,15 +2137,11 @@ body.node-type-page{
 			overflow: hidden;
 			img{
 				&:hover{
-				box-shadow: none;
+				box-shadow: 0 0 6px #858585;
 				-webkit-transition: .5s ease-in-out;
 				-moz-transition: .5s ease-in-out;
 				-ms-transition: .5s ease-in-out;
 				transition: .5s ease-in-out;
-			}
-			&:hover{
-				background: url(../images/gallery-hover-bg.png) repeat;
-				background-position: 0 0;
 			}
 		}
 		}

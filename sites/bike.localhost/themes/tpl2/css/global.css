@@ -2600,18 +2600,13 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
 }
 /* line 2139, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery img:hover {
-  box-shadow: none;
+  box-shadow: 0 0 6px #858585;
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -ms-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
-/* line 2146, sass/global.scss */
-body.node-type-page .block-subpage-gallery-block .field-gallery img:hover {
-  background: url(../images/gallery-hover-bg.png) repeat;
-  background-position: 0 0;
-}
-/* line 2152, sass/global.scss */
+/* line 2148, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .block-inner {
   padding-bottom: 5px !important;
   background: none !important;
