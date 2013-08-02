@@ -2613,6 +2613,22 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
   box-shadow: none !important;
 }
 
+/* line 2155, sass/global.scss */
+.cboxTitle {
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0;
+}
+
+/* line 2158, sass/global.scss */
+.cboxCurrent {
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0;
+}
+
 	/*
 .block-cover-image-subpage-block{
 		.views-field-title{

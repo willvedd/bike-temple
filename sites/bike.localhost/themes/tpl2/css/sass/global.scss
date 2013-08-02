@@ -2152,6 +2152,13 @@ body.node-type-page{
 }
 
 
+.cboxTitle{
+	@include droid;
+}
+.cboxCurrent{
+	@include droid;
+}
+
 
 	/*
 .block-cover-image-subpage-block{
