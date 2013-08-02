@@ -232,7 +232,8 @@ html, body {
 			width:100% !important;
 		}
 		#region-user-second {
-			margin-right:0; 
+			margin-right:0;
+			float: right; 
 		}
 	}
 }
@@ -479,14 +480,14 @@ p {
 				input[type="text"] {
 					line-height: 1em;
 					width: 100%;
-					font-size: .688em;
+					font-size: 14px;
 					position: relative;
 					z-index: 2;
 					background: #fcfcfc;
 					border: 1px solid #DDD;
 					border-top: none;
 					color: #777777;
-					height:3.2em;
+					height: 35px;
 					border-radius:0; 
 				}
 				input[type="submit"], input[type="button"] {
