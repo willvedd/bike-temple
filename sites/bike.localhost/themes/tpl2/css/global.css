@@ -2633,19 +2633,19 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 */
 /* line 2173, sass/global.scss */
 #colorbox #cboxNext {
-  background: url(../images/colorboxControls.png) no-repeat -50px 0 !important;
+  background: url(../images/colorboxControls.png) no-repeat -74px 0 !important;
 }
 /* line 2175, sass/global.scss */
 #colorbox #cboxNext:hover {
-  background-position: -50px -25px !important;
+  background-position: -74px -25px !important;
 }
 /* line 2179, sass/global.scss */
 #colorbox #cboxPrevious {
-  background: url(../images/colorboxControls.png) no-repeat -65px 0 !important;
+  background: url(../images/colorboxControls.png) no-repeat -50px 0 !important;
 }
 /* line 2181, sass/global.scss */
 #colorbox #cboxPrevious:hover {
-  background-position: -74px -25px !important;
+  background-position: -50px -25px !important;
 }
 /* line 2185, sass/global.scss */
 #colorbox #cboxClose {
