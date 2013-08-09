@@ -2608,52 +2608,27 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
   box-shadow: none !important;
 }
 
-/* line 2150, sass/global.scss */
-#colorbox .cboxContent {
-  overflow: visible !important;
-}
-/* line 2153, sass/global.scss */
-#colorbox .cboxTitle {
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0;
-  line-height: 15px !important;
-}
-/* line 2157, sass/global.scss */
-#colorbox .cboxCurrent {
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0;
-  line-height: 15px !important;
-  left: 32px !important;
-}
-/* line 2162, sass/global.scss */
-#colorbox #cboxClose {
-  top: -15px !important;
-  right: -15px !important;
-}
-/* line 2166, sass/global.scss */
-#colorbox #cboxNext {
-  left: 85px !important;
-}
-
-	/*
-.block-cover-image-subpage-block{
-		.views-field-title{
-			margin-top: -120px;
-			@include overlaysub;
-			width: 100%;
-			height: 85px;
-			position: absolute;
-				h1{
-					color: #FFF;
-					font-size: 60px;
-					padding-left: 20px;
-					@include bebas;
-				}
-		 }
+/*
+#colorbox{	
+	.cboxContent{
+		overflow: visible !important;
 	}
+	.cboxTitle{
+		@include droid;
+		line-height: 15px !important;
+	}
+	.cboxCurrent{
+		@include droid;
+		line-height: 15px !important;
+		left: 32px !important;
+	}
+	#cboxClose{
+		top: -15px !important;
+		right: -15px !important;	
+	}
+	#cboxNext{
+		left: 85px !important;
+	}
+}
 */
 /*==========MISC Bike Temple additions==========*/
