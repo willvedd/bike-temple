@@ -2655,5 +2655,14 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 #colorbox #cboxClose:hover {
   background-position: -25px -25px !important;
 }
+/* line 2191, sass/global.scss */
+#colorbox #cboxCurrent {
+  bottom: 0;
+  left: 64px;
+}
+/* line 2195, sass/global.scss */
+#colorbox #cboxTitle {
+  bottom: 0;
+}
 
 /*==========MISC Bike Temple additions==========*/
