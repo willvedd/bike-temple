@@ -2632,8 +2632,8 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 }
 */
 /* line 2173, sass/global.scss */
-#colorbox .cboxPrevious {
-  background: url(images/controls.png) no-repeat -65px 0;
+#colorbox #cboxPrevious {
+  background: url(images/controls.png) no-repeat -65px 0 !important;
 }
 
 /*==========MISC Bike Temple additions==========*/
