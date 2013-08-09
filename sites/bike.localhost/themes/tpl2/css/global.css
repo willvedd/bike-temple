@@ -2632,8 +2632,28 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 }
 */
 /* line 2173, sass/global.scss */
+#colorbox #cboxNext {
+  background: url(images/colorboxcontrols.png) no-repeat -50px 0 !important;
+}
+/* line 2175, sass/global.scss */
+#colorbox #cboxNext:hover {
+  background-position: -50px -15px;
+}
+/* line 2179, sass/global.scss */
 #colorbox #cboxPrevious {
-  background: url(images/controls.png) no-repeat -65px 0 !important;
+  background: url(images/colorboxcontrols.png) no-repeat -65px 0 !important;
+}
+/* line 2181, sass/global.scss */
+#colorbox #cboxPrevious:hover {
+  background-position: -65px -15px;
+}
+/* line 2185, sass/global.scss */
+#colorbox #cboxClose {
+  background: url(images/colorboxcontrols.png) no-repeat -25px 0 !important;
+}
+/* line 2187, sass/global.scss */
+#colorbox #cboxClose:hover {
+  background-position: -25px -15px;
 }
 
 /*==========MISC Bike Temple additions==========*/
