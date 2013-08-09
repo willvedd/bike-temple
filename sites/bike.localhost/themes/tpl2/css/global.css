@@ -2657,12 +2657,14 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 }
 /* line 2191, sass/global.scss */
 #colorbox #cboxCurrent {
+  color: #222222;
   bottom: 0;
   left: 64px;
 }
-/* line 2195, sass/global.scss */
+/* line 2196, sass/global.scss */
 #colorbox #cboxTitle {
   bottom: 0;
+  color: #222222;
 }
 
 /*==========MISC Bike Temple additions==========*/
