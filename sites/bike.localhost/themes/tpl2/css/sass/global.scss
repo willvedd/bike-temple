@@ -301,11 +301,6 @@ a:hover {
 p {
 	line-height:1.4em;
 }
-.field-body{
-	p{
-		text-align: justify;
-	}
-}
 
 /*==========HEADER==========*/
 
@@ -2162,7 +2157,7 @@ body.node-type-page{
 	.cboxCurrent{
 		@include droid;
 		line-height: 15px;
-		left: 35px;
+		left: 32px;
 	}
 	#cboxClose{
 		top: -15px;
