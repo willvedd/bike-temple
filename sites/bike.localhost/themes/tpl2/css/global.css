@@ -2633,7 +2633,7 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 */
 /* line 2173, sass/global.scss */
 #colorbox #cboxNext {
-  background: url(images/colorboxControls.png) no-repeat -50px 0 !important;
+  background: url(../images/colorboxControls.png) no-repeat -50px 0 !important;
 }
 /* line 2175, sass/global.scss */
 #colorbox #cboxNext:hover {
@@ -2641,7 +2641,7 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 }
 /* line 2179, sass/global.scss */
 #colorbox #cboxPrevious {
-  background: url(images/colorboxControls.png) no-repeat -65px 0 !important;
+  background: url(../images/colorboxControls.png) no-repeat -65px 0 !important;
 }
 /* line 2181, sass/global.scss */
 #colorbox #cboxPrevious:hover {
@@ -2649,7 +2649,7 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 }
 /* line 2185, sass/global.scss */
 #colorbox #cboxClose {
-  background: url(images/colorboxControls.png) no-repeat -25px 0 !important;
+  background: url(../images/colorboxControls.png) no-repeat -25px 0 !important;
 }
 /* line 2187, sass/global.scss */
 #colorbox #cboxClose:hover {
