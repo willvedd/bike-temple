@@ -2148,23 +2148,23 @@ body.node-type-page{
 
 #colorbox{	
 	.cboxContent{
-		overflow: visible;
+		overflow: visible !important;
 	}
 	.cboxTitle{
 		@include droid;
-		line-height: 15px;
+		line-height: 15px !important;
 	}
 	.cboxCurrent{
 		@include droid;
-		line-height: 15px;
-		left: 32px;
+		line-height: 15px !important;
+		left: 32px !important;
 	}
 	#cboxClose{
-		top: -15px;
-		right: -15px;	
+		top: -15px !important;
+		right: -15px !important;	
 	}
 	#cboxNext{
-		left: 85px;
+		left: 85px !important;
 	}
 }
 

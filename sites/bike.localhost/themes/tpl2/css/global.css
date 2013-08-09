@@ -2610,7 +2610,7 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 
 /* line 2150, sass/global.scss */
 #colorbox .cboxContent {
-  overflow: visible;
+  overflow: visible !important;
 }
 /* line 2153, sass/global.scss */
 #colorbox .cboxTitle {
@@ -2618,7 +2618,7 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0;
-  line-height: 15px;
+  line-height: 15px !important;
 }
 /* line 2157, sass/global.scss */
 #colorbox .cboxCurrent {
@@ -2626,17 +2626,17 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0;
-  line-height: 15px;
-  left: 32px;
+  line-height: 15px !important;
+  left: 32px !important;
 }
 /* line 2162, sass/global.scss */
 #colorbox #cboxClose {
-  top: -15px;
-  right: -15px;
+  top: -15px !important;
+  right: -15px !important;
 }
 /* line 2166, sass/global.scss */
 #colorbox #cboxNext {
-  left: 85px;
+  left: 85px !important;
 }
 
 	/*
