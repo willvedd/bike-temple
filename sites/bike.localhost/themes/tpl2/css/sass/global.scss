@@ -150,7 +150,8 @@
 		}
 	}
 	@mixin contentbg{
-		background-image: url(../images/contentbg.png);
+		/* background-image: url(../images/contentbg.png); */
+		background-image: url(../images/bikebg.jpg)
 		background-repeat: repeat;
 		background-position: 0 0;
 	}
