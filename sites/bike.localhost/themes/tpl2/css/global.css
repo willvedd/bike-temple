@@ -2170,7 +2170,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1779, sass/global.scss */
 #zone-intermediate-wrapper .button1 {
-  background-position: 12px 8px;
+  background-position: 15px 15px;
   background-repeat: no-repeat;
   border: none;
   background-color: #4c73c8;
@@ -2186,7 +2186,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1792, sass/global.scss */
 #zone-intermediate-wrapper .button2 {
-  background-position: 12px 8px;
+  background-position: 15px 15px;
   background-repeat: no-repeat;
   background-color: #bb4636;
   background-image: url(../images/map_icon2.png);
@@ -2202,7 +2202,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1806, sass/global.scss */
 #zone-intermediate-wrapper .button3 {
-  background-position: 12px 8px;
+  background-position: 15px 15px;
   background-repeat: no-repeat;
   background-color: #00884b;
   background-image: url(../images/class_icon2.png);
