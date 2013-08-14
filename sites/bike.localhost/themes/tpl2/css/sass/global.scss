@@ -151,9 +151,9 @@
 	}
 	@mixin contentbg{
 		/* background-image: url(../images/contentbg.png); */
-		background-image: url(../images/bikebg.jpg);
+		background-image: url(../images/bikebg9.jpg);
 		background-repeat: repeat;
-		background-position: 0 0;
+		background-position: 0 14px;
 	}
 	@mixin overlayhome{
 		background-image: url(../images/overlay.png);
@@ -2123,10 +2123,10 @@ body.node-type-page{
 			height: 140px !important;
 			width: 140px !important;
 			overflow: hidden;
-			-webkit-transition:box-shadow .5s, .5s ease-in-out;
-				-moz-transition:box-shadow .5s, .5s ease-in-out;
-				-ms-transition:box-shadow .5s, .5s ease-in-out;
-				transition:box-shadow .5s, .5s ease-in-out;
+			-webkit-transition:box-shadow .25s, .25s ease-in-out;
+				-moz-transition:box-shadow .25s, .25s ease-in-out;
+				-ms-transition:box-shadow .25s, .25s ease-in-out;
+				transition:box-shadow .25s, .25s ease-in-out;
 			&:hover{
 				box-shadow: 0 1px 9px #505050;
 				}

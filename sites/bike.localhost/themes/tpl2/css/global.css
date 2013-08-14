@@ -102,9 +102,9 @@ html, body {
 /* line 242, sass/global.scss */
 div.page {
   /* background-image: url(../images/contentbg.png); */
-  background-image: url(../images/bikebg.jpg);
+  background-image: url(../images/bikebg9.jpg);
   background-repeat: repeat;
-  background-position: 0 0;
+  background-position: 0 14px;
 }
 
 /* line 247, sass/global.scss */
@@ -2585,10 +2585,10 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
   height: 140px !important;
   width: 140px !important;
   overflow: hidden;
-  -webkit-transition: box-shadow .5s, .5s ease-in-out;
-  -moz-transition: box-shadow .5s, .5s ease-in-out;
-  -ms-transition: box-shadow .5s, .5s ease-in-out;
-  transition: box-shadow .5s, .5s ease-in-out;
+  -webkit-transition: box-shadow .25s, .25s ease-in-out;
+  -moz-transition: box-shadow .25s, .25s ease-in-out;
+  -ms-transition: box-shadow .25s, .25s ease-in-out;
+  transition: box-shadow .25s, .25s ease-in-out;
 }
 /* line 2130, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery:hover {
