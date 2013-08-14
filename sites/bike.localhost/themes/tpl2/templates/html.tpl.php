@@ -6,7 +6,11 @@
 <!--<![endif]-->
 <head<?php print $rdf->profile; ?>>
   <?php print $head; ?>
-  <title><?php print $head_title; ?></title>  
+  <title><?php
+  if($is_front){
+	  $head_title = 'Bike Temple | Temple University'”; // Will change the title of your default home page
+    }
+   print $head_title; ?></title>  
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
