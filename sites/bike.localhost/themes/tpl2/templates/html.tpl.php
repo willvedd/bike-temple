@@ -8,7 +8,7 @@
   <?php print $head; ?>
   <title><?php
   if($is_front){
-	  $head_title = 'Bike Temple | Temple University'”; // Will change the title of your default home page
+	  $head_title = 'Bike Temple | Temple University'; // Will change the title of your default home page
     }
    print $head_title; ?></title>  
   <?php print $styles; ?>
