@@ -150,10 +150,9 @@
 		}
 	}
 	@mixin contentbg{
-		/* background-image: url(../images/contentbg.png); */
-		background-image: url(../images/bikebg9.jpg);
+		background-image: url(../images/contentbg.png);
 		background-repeat: repeat;
-		background-position: 0 14px;
+		background-position: 0 2px;
 	}
 	@mixin overlayhome{
 		background-image: url(../images/overlay.png);
@@ -536,7 +535,7 @@ p {
 		display:block !important;
 	}
 	#section-header{
-		background-color: $white;
+		background-color: #ffffff;
 	}
 
 	/*==========MAIN NAVIGATION==========*/
@@ -1832,7 +1831,7 @@ p {
 	border-radius: 4px;
 	}
 	.region-inner{
-	padding: 20px;
+	padding: 30px;
 	margin-top: 15px;
 	}
 }
@@ -1844,6 +1843,12 @@ p {
 	width: 100% !important;
 	float: left !important;
 	margin-right: 20px !important;	
+	
+	.block-internal-calendar-feed-block{
+		li{
+			margin-left: 0;
+		}
+	}
 	
 	.views-field-field-start-date-1{
 		float: left;
