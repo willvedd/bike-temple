@@ -1910,12 +1910,12 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   color: #ffffff;
 }
 /* line 1559, sass/global.scss */
-#section-footer h3 {
+#section-footer h2 {
   font-size: 1.406em;
   margin-bottom: .1em;
 }
 /* line 1563, sass/global.scss */
-#section-footer h4 {
+#section-footer h3 {
   font-size: 1.25em;
   margin-bottom: .2em;
 }
