@@ -959,7 +959,7 @@ p {
 				}
 				.slideCopy{
 					font-size: 1.7em;
-					line-height: 2.5em;
+					line-height: 1.475em;
 					margin-top: 15px;
 					@include droid;
 				}
@@ -2061,20 +2061,19 @@ a.archivelink{
 }
 
 .twitHandle{
-	height: 30px;
 	text-align: center;
 	font-size: 2.8em;
-	margin-top: -1.5em;
-	padding-bottom: 2em;
+	margin-top: -.5em;
+	padding-bottom: 0;
 	width: 100%;
-	border-bottom: 2px solid $bordernaccent;
-	margin-bottom: 2.5em;
+	border-bottom: 2px solid #E3E3E3;
+	margin-bottom: .5em;
 	a{
 	@include bebas;
 	}
 }
 .tweet{
-		padding: 10em 0;
+		padding: 1em 0;
 	p{
 		margin-bottom: .5em;
 	}
