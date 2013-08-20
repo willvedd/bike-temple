@@ -2262,7 +2262,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   font-size: 1.6em;
 }
 /* line 1876, sass/global.scss */
-#region-home-bottomleft fieldset {
+#region-home-bottomleft .field-group-fieldset {
   font-size: 1.6em;
 }
 
