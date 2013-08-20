@@ -264,7 +264,7 @@ div.page {
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
-	margin-bottom:2em;
+	margin-bottom:1em;
 }
 
 h1, h2 {
@@ -300,6 +300,7 @@ a:hover {
 
 p {
 	font-size: 1.6em;
+	margin-bottom: 20px;
 }
 
 /*==========HEADER==========*/
@@ -595,7 +596,7 @@ p {
 					    -webkit-transition:background-color .2s, -webkit-transform .2s;
 					    -o-transition:background-color .2s, -o-transform .2s;
 					    transition:background-color .2s,transform .2s;
-						
+						font-size: 1.25em;
 						
 						&:hover{
 							background-color:shade($templeRed,20%);
@@ -1558,6 +1559,9 @@ p {
 	}
 	h3 {
 		font-size: 2em;
+	}
+	li{
+		font-size: 1.6em;
 	}
 	ul li {
 		list-style-type:none;
