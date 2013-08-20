@@ -1054,9 +1054,9 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 
 /* line 1043, sass/global.scss */
 #zone-content h1 {
-  font-size: 4em;
-  line-height: 1.6em;
-  margin-bottom: .8em;
+  font-size: 3.9em;
+  line-height: 1.5em;
+  margin-bottom: .2em;
   color: #9e1b34;
 }
 /* line 1049, sass/global.scss */
