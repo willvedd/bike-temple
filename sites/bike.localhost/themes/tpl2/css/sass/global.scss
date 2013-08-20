@@ -1051,6 +1051,9 @@ p {
 			line-height: 1.44em;
 			margin-bottom: .24em;
 		}
+		.field-group-fieldset{
+		font-size: 1.6em;
+		}
 		#region-content {
 			margin-bottom: 30px;
 			.region-inner {
@@ -1582,7 +1585,7 @@ p {
 					li {
 						a {
 							display: inline-block;
-							padding:.48em 0 .32em 2.88em;
+							padding: 0em 0 0.1em 2.5em;
 							background-position: 0 2px;
 							color:#fff;
 							text-decoration:none;
@@ -1600,7 +1603,7 @@ p {
 							background:url('../images/footer-icon-map.png') no-repeat top left transparent;
 							}
 						}
-						.menu-mlid-1342{
+						.menu-mlid-975{
 							a{
 							background:url('../images/footer-icon-contact.png') no-repeat top left transparent;
 							}
@@ -1871,9 +1874,6 @@ p {
 	.field-link-text{
 		float: right;
 		margin-right: 1em;
-		font-size: 1.6em;
-	}
-	.field-group-fieldset{
 		font-size: 1.6em;
 	}
 }
