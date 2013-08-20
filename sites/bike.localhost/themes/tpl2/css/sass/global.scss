@@ -459,6 +459,7 @@ p {
 		}
 	}
 */
+
 	#region-user-second {
 		#block-block-2{
 			position:relative;
@@ -467,7 +468,7 @@ p {
 				.form-item-search-block-form {
 					position: relative;
 					padding: 0;
-					width: 12.8em;
+					width: 16em;
 					top:0;
 					right:0;
 					margin-right: 0;
@@ -597,6 +598,7 @@ p {
 					    -o-transition:background-color .2s, -o-transform .2s;
 					    transition:background-color .2s,transform .2s;
 						font-size: 1.25em;
+						line-height: 1.5em;
 						
 						&:hover{
 							background-color:shade($templeRed,20%);
