@@ -969,7 +969,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   letter-spacing: 0;
   letter-spacing: .03em;
   font-size: 3.8em;
-  line-height: 3.3em;
+  line-height: 1.2em;
 }
 /* line 960, sass/global.scss */
 #zone-slider .region-slider .slideOverlay .slideCopy {
@@ -2452,59 +2452,61 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 /* line 2016, sass/global.scss */
 .page-events .datebox {
   float: left;
-  margin: 0 20em 20em 0;
+  margin: 0 2em 1.5em 0;
 }
 /* line 2020, sass/global.scss */
 .page-events .views-field-field-start-time {
   display: inline;
+  font-size: 1.4em;
 }
-/* line 2023, sass/global.scss */
+/* line 2024, sass/global.scss */
 .page-events .views-field-field-end-time {
   display: inline;
+  font-size: 1.4em;
 }
-/* line 2026, sass/global.scss */
+/* line 2029, sass/global.scss */
 .page-events .field-description {
   margin-top: .5em;
 }
-/* line 2028, sass/global.scss */
+/* line 2031, sass/global.scss */
 .page-events .field-description p {
   text-align: justify;
 }
 
-/* line 2036, sass/global.scss */
+/* line 2039, sass/global.scss */
 .node-type-calendar-event .field-label {
   display: inline;
 }
-/* line 2039, sass/global.scss */
+/* line 2042, sass/global.scss */
 .node-type-calendar-event .field-room {
   display: inline;
 }
-/* line 2042, sass/global.scss */
+/* line 2045, sass/global.scss */
 .node-type-calendar-event .field-start-time {
   display: inline;
 }
-/* line 2045, sass/global.scss */
+/* line 2048, sass/global.scss */
 .node-type-calendar-event .field-end-time {
   display: inline;
 }
-/* line 2047, sass/global.scss */
+/* line 2050, sass/global.scss */
 .node-type-calendar-event .field-end-time:before {
   content: "to";
 }
 
-/* line 2052, sass/global.scss */
+/* line 2055, sass/global.scss */
 a.archivelink {
   float: right;
 }
 
 /* Twitter - Homepage */
-/* line 2058, sass/global.scss */
+/* line 2061, sass/global.scss */
 #region-home-bottomright {
   width: 468px !important;
   float: left !important;
 }
 
-/* line 2063, sass/global.scss */
+/* line 2066, sass/global.scss */
 .twitHandle {
   text-align: center;
   font-size: 2.8em;
@@ -2514,7 +2516,7 @@ a.archivelink {
   border-bottom: 2px solid #E3E3E3;
   margin-bottom: .5em;
 }
-/* line 2071, sass/global.scss */
+/* line 2074, sass/global.scss */
 .twitHandle a {
   font-family: 'BebasNeueRegular';
   font-weight: normal;
@@ -2523,25 +2525,25 @@ a.archivelink {
   letter-spacing: .03em;
 }
 
-/* line 2075, sass/global.scss */
+/* line 2078, sass/global.scss */
 .tweet {
   padding: 1em 0;
 }
-/* line 2077, sass/global.scss */
+/* line 2080, sass/global.scss */
 .tweet p {
   margin-bottom: .5em;
 }
 
 /* Subpage styles */
-/* line 2086, sass/global.scss */
+/* line 2089, sass/global.scss */
 body.node-type-page #zone-content {
   margin-top: 285px;
 }
-/* line 2090, sass/global.scss */
+/* line 2093, sass/global.scss */
 body.node-type-page #page-title {
   display: none;
 }
-/* line 2095, sass/global.scss */
+/* line 2098, sass/global.scss */
 body.node-type-page .view-cover-image-subpage h1 {
   font-family: 'BebasNeueRegular';
   font-weight: normal;
@@ -2561,21 +2563,21 @@ body.node-type-page .view-cover-image-subpage h1 {
   margin: 0;
   padding: 0;
 }
-/* line 2109, sass/global.scss */
+/* line 2112, sass/global.scss */
 body.node-type-page .view-cover-image-subpage .field-cover-image {
   position: absolute;
 }
-/* line 2113, sass/global.scss */
+/* line 2116, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block {
   box-shadow: none !important;
 }
-/* line 2116, sass/global.scss */
+/* line 2119, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .content {
   width: 140px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 2121, sass/global.scss */
+/* line 2124, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery {
   margin-bottom: 2em;
   height: 140px !important;
@@ -2586,11 +2588,11 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
   -ms-transition: box-shadow .25s, .25s ease-in-out;
   transition: box-shadow .25s, .25s ease-in-out;
 }
-/* line 2130, sass/global.scss */
+/* line 2133, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery:hover {
   box-shadow: 0 1px 9px #505050;
 }
-/* line 2134, sass/global.scss */
+/* line 2137, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .block-inner {
   padding-bottom: .5em !important;
   background: none !important;
@@ -2620,37 +2622,37 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 	}
 }
 */
-/* line 2166, sass/global.scss */
+/* line 2169, sass/global.scss */
 #colorbox #cboxNext {
   background: url(../images/colorboxControls.png) no-repeat -74px 0 !important;
 }
-/* line 2168, sass/global.scss */
+/* line 2171, sass/global.scss */
 #colorbox #cboxNext:hover {
   background-position: -74px -25px !important;
 }
-/* line 2172, sass/global.scss */
+/* line 2175, sass/global.scss */
 #colorbox #cboxPrevious {
   background: url(../images/colorboxControls.png) no-repeat -50px 0 !important;
 }
-/* line 2174, sass/global.scss */
+/* line 2177, sass/global.scss */
 #colorbox #cboxPrevious:hover {
   background-position: -50px -25px !important;
 }
-/* line 2178, sass/global.scss */
+/* line 2181, sass/global.scss */
 #colorbox #cboxClose {
   background: url(../images/colorboxControls.png) no-repeat -25px 0 !important;
 }
-/* line 2180, sass/global.scss */
+/* line 2183, sass/global.scss */
 #colorbox #cboxClose:hover {
   background-position: -25px -25px !important;
 }
-/* line 2184, sass/global.scss */
+/* line 2187, sass/global.scss */
 #colorbox #cboxCurrent {
   color: #222222;
   bottom: 0;
   left: 64px;
 }
-/* line 2189, sass/global.scss */
+/* line 2192, sass/global.scss */
 #colorbox #cboxTitle {
   bottom: 0;
   color: #222222;
