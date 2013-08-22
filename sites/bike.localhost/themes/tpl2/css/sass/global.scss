@@ -1642,27 +1642,15 @@ li{
 							width:32px;
 							height:32px;
 							background:url('../images/footer-social-media-icons.png') no-repeat -1px 0px transparent;
+							&:active{
+								margin-top: 1px;
+							}
 						}
 						.footer-facebook-link {
 							background-position:-36px -1px;
 						}
 						.footer-twitter-link {
 							background-position:-71px -1px;
-						}
-						.footer-linkedin-link {
-							background-position:-2px -36px;
-						}
-						.footer-youtube-link {
-							background-position:-36px -36px;
-						}
-						.footer-pinterest-link {
-							background-position:-71px -36px;
-						}
-						.footer-flickr-link {
-							background-position:-1px -71px;
-						}
-						.footer-instagram-link {
-							background-position:-36px -71px;
 						}
 					}
 					.first, .menu-mlid-980 {
