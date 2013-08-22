@@ -492,6 +492,9 @@ li{
 					color: #777777;
 					height: 35px;
 					border-radius:0; 
+					&:active{
+						box-shadow: none;
+					}
 				}
 				input[type="submit"], input[type="button"] {
 					display: block;
