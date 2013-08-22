@@ -381,7 +381,7 @@ li{
 				color: #222222;
 				display: inline-block;
 				text-decoration: none;
-				font-size: 1em;
+				font-size: .625em;
 				padding: 1em 1.5em;
 				border-left:1px solid #dddddd;
 				box-shadow:inset 1px 0 0 $white;
@@ -1084,7 +1084,7 @@ li{
 						font-size:3.2em;
 					}
 					h3 {
-						font-size:2.16em;
+						font-size:2.1em;
 					}
 					h2, h3, h4 {
 						margin-bottom:.48em;
@@ -1717,7 +1717,6 @@ li{
 					list-style-image:none;
 					float:left;
 					a {
-						font-size:1.12em;
 						text-decoration:none;
 						text-transform:uppercase;
 					}
