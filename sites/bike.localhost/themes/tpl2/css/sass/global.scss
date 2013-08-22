@@ -507,6 +507,10 @@ li{
 					&:hover{
 						background-position: -24px;
 					}
+					&:active{
+						box-shadow: none;
+						margin-top: 1px;
+					}
 				}
 				label {
 					display: none;
