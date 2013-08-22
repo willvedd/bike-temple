@@ -152,8 +152,8 @@ h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0;
   font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 1.8rem;
+  font-size: 1.8em;
+  line-height: 1.8em;
   margin: 0;
 }
 
@@ -181,13 +181,13 @@ a:hover {
 
 /* line 301, sass/global.scss */
 p {
-  font-size: 1.6rem;
-  margin-bottom: 2rem;
+  font-size: 1.6em;
+  margin-bottom: 2em;
 }
 
 /* line 305, sass/global.scss */
 li {
-  font-size: 1.6rem;
+  font-size: 1.6em;
 }
 
 /*==========HEADER==========*/
@@ -278,7 +278,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   color: #222222;
   display: inline-block;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1em;
   padding: 1em 1.5em;
   border-left: 1px solid #dddddd;
   box-shadow: inset 1px 0 0 #f7f7f7;
@@ -370,7 +370,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 #region-user-second #block-block-2 #templesearch .form-item-search-block-form {
   position: relative;
   padding: 0;
-  width: 16rem;
+  width: 16em;
   top: 0;
   right: 0;
   margin-right: 0;
@@ -516,13 +516,13 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 585, sass/global.scss */
 #zone-menu-wrapper #region-menu #superfish-1 li a, #zone-menu-wrapper #region-menu #mobile-menu li a {
-  line-height: 4.4rem;
+  line-height: 2.2em;
   color: #f7f7f7;
   text-decoration: none;
   text-align: center;
   padding: 0;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.2em;
   background: url(../images/main-menu-separator.png) no-repeat 0 0;
   -moz-transition: background-color .3s, -moz-transform .3s;
   -webkit-transition: background-color .3s, -webkit-transform .3s;
@@ -542,8 +542,8 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   -webkit-transition: background-color .2s, -webkit-transform .2s;
   -o-transition: background-color .2s, -o-transform .2s;
   transition: background-color .2s,transform .2s;
-  font-size: 1.6rem;
-  line-height: 2rem;
+  font-size: 1em;
+  line-height: 1.1em;
 }
 /* line 613, sass/global.scss */
 #zone-menu-wrapper #region-menu #superfish-1 li .sf-depth-2:hover, #zone-menu-wrapper #region-menu #mobile-menu li .sf-depth-2:hover {
@@ -571,7 +571,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 #zone-menu-wrapper #region-menu #superfish-1 ul li a, #zone-menu-wrapper #region-menu #mobile-menu ul li a {
   text-align: left;
   font-size: 1.4;
-  padding: 1rem;
+  padding: 1em;
   text-transform: capitalize;
   font-size: 1em;
   letter-spacing: .1em;
@@ -1903,7 +1903,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1556, sass/global.scss */
 #section-footer p, #section-footer a {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: #ffffff;
 }
 /* line 1560, sass/global.scss */
@@ -1959,7 +1959,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   background-position: 0 2px;
   color: #fff;
   text-decoration: none;
-  line-height: 2.4rem;
+  line-height: 2.3em;
 }
 /* line 1608, sass/global.scss */
 #section-footer #zone-postscript-wrapper #region-postscript-second .menu-name-menu-footer-directory ul .menu-mlid-973 a {
@@ -2097,7 +2097,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1712, sass/global.scss */
 #section-footer #zone-footer-wrapper .menu-name-menu-tertiary-links ul li a {
-  font-size: 1.12rem;
+  font-size: 1.12em;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -2133,7 +2133,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 
 /* line 1750, sass/global.scss */
 #admin-menu .dropdown li {
-  font-size: 1.3rem;
+  font-size: 1.3em;
 }
 
 /* Intermediate and introduction section*/
@@ -2256,7 +2256,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1870, sass/global.scss */
 #region-home-bottomleft .views-field-title {
-  font-size: 1.8rem;
+  font-size: 1.8em;
 }
 /* line 1873, sass/global.scss */
 #region-home-bottomleft .views-field-description {
@@ -2264,7 +2264,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1876, sass/global.scss */
 #region-home-bottomleft div.views-field-field-description {
-  margin-top: -1rem;
+  margin-top: -1em;
 }
 /* line 1879, sass/global.scss */
 #region-home-bottomleft .field-link-text {
@@ -2284,7 +2284,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   height: 55px;
   background-color: #9e1b34;
   text-align: center;
-  padding-top: .5rem;
+  padding-top: .5em;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -2293,12 +2293,12 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1899, sass/global.scss */
 .datebox .month {
-  font-size: 1.8rem;
+  font-size: 1.8em;
 }
 /* line 1902, sass/global.scss */
 .datebox .day {
-  font-size: 3rem;
-  line-height: .7rem;
+  font-size: 3em;
+  line-height: .7em;
 }
 
 /* line 1909, sass/global.scss */
@@ -2466,17 +2466,17 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 /* line 2034, sass/global.scss */
 .page-events .datebox {
   float: left;
-  margin: 0 2rem 1.5rem 0;
+  margin: 0 2em 1.5em 0;
 }
 /* line 2038, sass/global.scss */
 .page-events .views-field-field-start-time {
   display: inline;
-  font-size: 1.4rem;
+  font-size: 1.4em;
 }
 /* line 2042, sass/global.scss */
 .page-events .views-field-field-end-time {
   display: inline;
-  font-size: 1.4rem;
+  font-size: 1.4em;
 }
 /* line 2047, sass/global.scss */
 .page-events .field-description {
