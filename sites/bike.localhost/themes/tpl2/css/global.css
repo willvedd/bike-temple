@@ -1013,7 +1013,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 #zone-slider .region-slider .slideOverlay .field-link-text a {
   background-color: #9E1B34;
   color: #FFF;
-  padding: 6px;
+  padding: 5px;
   border-radius: 2px;
   float: right;
   -moz-transition: background-color .3s, -moz-transform .3s;
@@ -1059,7 +1059,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 /*==========MAIN CONTENT==========*/
 /* line 1047, sass/global.scss */
 .front #zone-content-wrapper {
-  padding: 2em 0;
+  padding: 0;
 }
 
 /* line 1050, sass/global.scss */
@@ -2141,7 +2141,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 
 /* line 1756, sass/global.scss */
 #admin-menu .dropdown li {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 /* Intermediate and introduction section*/
@@ -2159,7 +2159,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 #zone-intermediate-wrapper .views-row p {
   font-size: 2.5em;
   color: #f7f7f7;
-  padding: 2em 0 1.5em 0;
+  padding: 1.5em 0 0 0;
   text-align: justify;
 }
 /* line 1780, sass/global.scss */
@@ -2259,29 +2259,30 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 /* line 1870, sass/global.scss */
 #region-home-bottomleft .views-field-field-start-date-1 {
   float: left;
-  margin-right: 1.5em;
-  margin-bottom: 1.5em;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 /* line 1876, sass/global.scss */
 #region-home-bottomleft .views-field-title {
-  font-size: 1.8em;
+  font-size: 1.2em;
+  line-height: 1em;
 }
-/* line 1879, sass/global.scss */
+/* line 1880, sass/global.scss */
 #region-home-bottomleft .views-field-description {
   font-size: 1.8em;
 }
-/* line 1882, sass/global.scss */
+/* line 1883, sass/global.scss */
 #region-home-bottomleft div.views-field-field-description {
-  margin-top: -1em;
+  margin-top: -1.7em;
 }
-/* line 1885, sass/global.scss */
+/* line 1886, sass/global.scss */
 #region-home-bottomleft .field-link-text {
   float: right;
   margin-right: 1em;
   font-size: 1.6em;
 }
 
-/* line 1892, sass/global.scss */
+/* line 1893, sass/global.scss */
 .datebox {
   font-family: 'BebasNeueRegular';
   font-weight: normal;
@@ -2292,75 +2293,75 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   height: 55px;
   background-color: #9e1b34;
   text-align: center;
-  padding-top: .5em;
+  padding-top: .2em;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: #ffffff;
   font-weight: bold;
 }
-/* line 1905, sass/global.scss */
+/* line 1906, sass/global.scss */
 .datebox .month {
-  font-size: 1.8em;
+  font-size: 1.125em;
 }
-/* line 1908, sass/global.scss */
+/* line 1909, sass/global.scss */
 .datebox .day {
-  font-size: 3em;
-  line-height: .7em;
+  font-size: 1.875em;
+  line-height: .6em;
 }
 
-/* line 1915, sass/global.scss */
+/* line 1916, sass/global.scss */
 .page-events .view-internal-calendar-feed ul, .page-events .view-internal-news-feed ul {
   padding: 0;
 }
-/* line 1917, sass/global.scss */
+/* line 1918, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li, .page-events .view-internal-news-feed ul li {
   margin: 0;
   padding: 25px 25px 12px 17px;
   list-style: none;
 }
-/* line 1921, sass/global.scss */
+/* line 1922, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li a, .page-events .view-internal-news-feed ul li a {
   display: inline;
 }
-/* line 1924, sass/global.scss */
+/* line 1925, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li span, .page-events .view-internal-news-feed ul li span {
   border: none;
   display: inline;
   margin: 0;
   padding: 0;
 }
-/* line 1930, sass/global.scss */
+/* line 1931, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .inside, .page-events .view-internal-news-feed ul li .inside {
   border: 0;
   background: none;
   box-shadow: none;
   padding: 0;
 }
-/* line 1936, sass/global.scss */
+/* line 1937, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .field-body, .page-events .view-internal-calendar-feed ul li .field-body p, .page-events .view-internal-news-feed ul li .field-body, .page-events .view-internal-news-feed ul li .field-body p {
   margin: 0;
 }
-/* line 1939, sass/global.scss */
+/* line 1940, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .field-image, .page-events .view-internal-news-feed ul li .field-image {
   width: 8em;
   height: 8em;
   margin: .28em 1.2em 1.2em 0;
   overflow: hidden;
 }
-/* line 1945, sass/global.scss */
+/* line 1946, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .views-label, .page-events .view-internal-news-feed ul li .views-label {
   font-weight: bold;
 }
-/* line 1948, sass/global.scss */
+/* line 1949, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .panel-col-top .views-field-title, .page-events .view-internal-news-feed ul li .panel-col-top .views-field-title {
   margin-bottom: 0;
 }
-/* line 1949, sass/global.scss */
+/* line 1950, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .center-wrapper, .page-events .view-internal-news-feed ul li .center-wrapper {
   display: none;
 }
-/* line 1950, sass/global.scss */
+/* line 1951, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .panel-col-bottom, .page-events .view-internal-news-feed ul li .panel-col-bottom {
   *zoom: 1;
   width: 100%;
@@ -2374,13 +2375,13 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 .page-events .view-internal-calendar-feed ul li .panel-col-bottom:after, .page-events .view-internal-news-feed ul li .panel-col-bottom:after {
   clear: both;
 }
-/* line 1953, sass/global.scss */
+/* line 1954, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .panel-col-bottom .views-field, .page-events .view-internal-news-feed ul li .panel-col-bottom .views-field {
   position: relative;
   float: left;
   margin-right: 2.4em;
 }
-/* line 1958, sass/global.scss */
+/* line 1959, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .panel-col-bottom .views-field-field-start-date:after, .page-events .view-internal-news-feed ul li .panel-col-bottom .views-field-field-start-date:after {
   position: absolute;
   top: 0;
@@ -2390,26 +2391,26 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   color: #e3e3e3;
   display: inline-block;
 }
-/* line 1967, sass/global.scss */
+/* line 1968, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .panel-col-bottom .views-field-field-start-time, .page-events .view-internal-news-feed ul li .panel-col-bottom .views-field-field-start-time {
   margin-right: .48em;
 }
-/* line 1970, sass/global.scss */
+/* line 1971, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li .panel-col-bottom .views-field-title, .page-events .view-internal-news-feed ul li .panel-col-bottom .views-field-title {
   float: none;
   margin-bottom: .64em;
 }
-/* line 1978, sass/global.scss */
+/* line 1979, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager, .page-events .view-internal-news-feed .pager {
   background: none;
   border: none;
   border-radius: 0;
 }
-/* line 1982, sass/global.scss */
+/* line 1983, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager li, .page-events .view-internal-news-feed .pager li {
   margin: 0 .96em 0 0;
 }
-/* line 1985, sass/global.scss */
+/* line 1986, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-current, .page-events .view-internal-calendar-feed .pager .pager-item, .page-events .view-internal-news-feed .pager .pager-current, .page-events .view-internal-news-feed .pager .pager-item {
   font-size: 1.76em;
   line-height: 1.6em;
@@ -2420,12 +2421,12 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   padding: 1.05em 0;
   text-align: center;
 }
-/* line 1995, sass/global.scss */
+/* line 1996, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-item, .page-events .view-internal-news-feed .pager .pager-item {
   background: #dddddd;
   cursor: pointer;
 }
-/* line 1998, sass/global.scss */
+/* line 1999, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-item a, .page-events .view-internal-news-feed .pager .pager-item a {
   font-size: 1.6em;
   line-height: 1.76em;
@@ -2433,102 +2434,103 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   background: none;
   padding: 0;
 }
-/* line 2005, sass/global.scss */
+/* line 2006, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-item:hover, .page-events .view-internal-news-feed .pager .pager-item:hover {
   background: #4a84ad;
 }
-/* line 2007, sass/global.scss */
+/* line 2008, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-item:hover a, .page-events .view-internal-news-feed .pager .pager-item:hover a {
   color: #ffffff;
 }
-/* line 2012, sass/global.scss */
+/* line 2013, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-current, .page-events .view-internal-news-feed .pager .pager-current {
   background: #9e1b34;
 }
-/* line 2015, sass/global.scss */
+/* line 2016, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-next, .page-events .view-internal-calendar-feed .pager .pager-last, .page-events .view-internal-calendar-feed .pager .pager-previous, .page-events .view-internal-calendar-feed .pager .pager-first, .page-events .view-internal-news-feed .pager .pager-next, .page-events .view-internal-news-feed .pager .pager-last, .page-events .view-internal-news-feed .pager .pager-previous, .page-events .view-internal-news-feed .pager .pager-first {
   border: none;
   background: none;
 }
-/* line 2018, sass/global.scss */
+/* line 2019, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-next a, .page-events .view-internal-calendar-feed .pager .pager-last a, .page-events .view-internal-calendar-feed .pager .pager-previous a, .page-events .view-internal-calendar-feed .pager .pager-first a, .page-events .view-internal-news-feed .pager .pager-next a, .page-events .view-internal-news-feed .pager .pager-last a, .page-events .view-internal-news-feed .pager .pager-previous a, .page-events .view-internal-news-feed .pager .pager-first a {
   font-size: 2em;
   width: auto;
   color: #707070;
   background: none;
 }
-/* line 2023, sass/global.scss */
+/* line 2024, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-next a:hover, .page-events .view-internal-calendar-feed .pager .pager-last a:hover, .page-events .view-internal-calendar-feed .pager .pager-previous a:hover, .page-events .view-internal-calendar-feed .pager .pager-first a:hover, .page-events .view-internal-news-feed .pager .pager-next a:hover, .page-events .view-internal-news-feed .pager .pager-last a:hover, .page-events .view-internal-news-feed .pager .pager-previous a:hover, .page-events .view-internal-news-feed .pager .pager-first a:hover {
   color: #4a84ad;
 }
-/* line 2028, sass/global.scss */
+/* line 2029, sass/global.scss */
 .page-events .view-internal-calendar-feed .pager .pager-previous, .page-events .view-internal-calendar-feed .pager .pager-first, .page-events .view-internal-news-feed .pager .pager-previous, .page-events .view-internal-news-feed .pager .pager-first {
   margin: -0.48em 1.6em 0 0;
 }
 
-/* line 2036, sass/global.scss */
+/* line 2037, sass/global.scss */
 .page-events .views-row-odd {
   background-color: #e3e3e3;
   border-radius: 3px;
 }
-/* line 2040, sass/global.scss */
+/* line 2041, sass/global.scss */
 .page-events .datebox {
   float: left;
-  margin: 0 2em 1.5em 0;
+  margin: 0 1.5em 1.5em 0;
 }
-/* line 2044, sass/global.scss */
+/* line 2045, sass/global.scss */
 .page-events .views-field-field-start-time {
   display: inline;
-  font-size: 1.4em;
+  font-size: 1em;
 }
-/* line 2048, sass/global.scss */
+/* line 2049, sass/global.scss */
 .page-events .views-field-field-end-time {
   display: inline;
-  font-size: 1.4em;
+  font-size: 1em;
 }
-/* line 2053, sass/global.scss */
+/* line 2054, sass/global.scss */
 .page-events .field-description {
   margin-top: .5em;
 }
-/* line 2055, sass/global.scss */
+/* line 2056, sass/global.scss */
 .page-events .field-description p {
   text-align: justify;
+  font-size: 1em;
 }
 
-/* line 2063, sass/global.scss */
+/* line 2065, sass/global.scss */
 .node-type-calendar-event .field-label {
   display: inline;
 }
-/* line 2066, sass/global.scss */
+/* line 2068, sass/global.scss */
 .node-type-calendar-event .field-room {
   display: inline;
 }
-/* line 2069, sass/global.scss */
+/* line 2071, sass/global.scss */
 .node-type-calendar-event .field-start-time {
   display: inline;
 }
-/* line 2072, sass/global.scss */
+/* line 2074, sass/global.scss */
 .node-type-calendar-event .field-end-time {
   display: inline;
 }
-/* line 2074, sass/global.scss */
+/* line 2076, sass/global.scss */
 .node-type-calendar-event .field-end-time:before {
   content: "to";
 }
 
-/* line 2079, sass/global.scss */
+/* line 2081, sass/global.scss */
 a.archivelink {
   float: right;
 }
 
 /* Twitter - Homepage */
-/* line 2085, sass/global.scss */
+/* line 2087, sass/global.scss */
 #region-home-bottomright {
   width: 468px !important;
   float: left !important;
 }
 
-/* line 2090, sass/global.scss */
+/* line 2092, sass/global.scss */
 .twitHandle {
   text-align: center;
   font-size: 2.8em;
@@ -2538,7 +2540,7 @@ a.archivelink {
   border-bottom: 2px solid #E3E3E3;
   margin-bottom: .5em;
 }
-/* line 2098, sass/global.scss */
+/* line 2100, sass/global.scss */
 .twitHandle a {
   font-family: 'BebasNeueRegular';
   font-weight: normal;
@@ -2547,25 +2549,26 @@ a.archivelink {
   letter-spacing: .03em;
 }
 
-/* line 2102, sass/global.scss */
-.tweet {
-  padding: 1em 0;
-}
 /* line 2104, sass/global.scss */
+.tweet {
+  padding: .5em 0;
+  font-size: 1.6em;
+}
+/* line 2107, sass/global.scss */
 .tweet p {
   margin-bottom: .5em;
 }
 
 /* Subpage styles */
-/* line 2113, sass/global.scss */
+/* line 2116, sass/global.scss */
 body.node-type-page #zone-content {
   margin-top: 285px;
 }
-/* line 2117, sass/global.scss */
+/* line 2120, sass/global.scss */
 body.node-type-page #page-title {
   display: none;
 }
-/* line 2122, sass/global.scss */
+/* line 2125, sass/global.scss */
 body.node-type-page .view-cover-image-subpage h1 {
   font-family: 'BebasNeueRegular';
   font-weight: normal;
@@ -2585,21 +2588,21 @@ body.node-type-page .view-cover-image-subpage h1 {
   margin: 0;
   padding: 0;
 }
-/* line 2136, sass/global.scss */
+/* line 2139, sass/global.scss */
 body.node-type-page .view-cover-image-subpage .field-cover-image {
   position: absolute;
 }
-/* line 2140, sass/global.scss */
+/* line 2143, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block {
   box-shadow: none !important;
 }
-/* line 2143, sass/global.scss */
+/* line 2146, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .content {
   width: 140px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 2148, sass/global.scss */
+/* line 2151, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery {
   margin-bottom: 2em;
   height: 140px !important;
@@ -2610,11 +2613,11 @@ body.node-type-page .block-subpage-gallery-block .field-gallery {
   -ms-transition: box-shadow .25s, .25s ease-in-out;
   transition: box-shadow .25s, .25s ease-in-out;
 }
-/* line 2157, sass/global.scss */
+/* line 2160, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .field-gallery:hover {
   box-shadow: 0 1px 9px #505050;
 }
-/* line 2161, sass/global.scss */
+/* line 2164, sass/global.scss */
 body.node-type-page .block-subpage-gallery-block .block-inner {
   padding-bottom: .5em !important;
   background: none !important;
@@ -2644,37 +2647,37 @@ body.node-type-page .block-subpage-gallery-block .block-inner {
 	}
 }
 */
-/* line 2193, sass/global.scss */
+/* line 2196, sass/global.scss */
 #colorbox #cboxNext {
   background: url(../images/colorboxControls.png) no-repeat -74px 0 !important;
 }
-/* line 2195, sass/global.scss */
+/* line 2198, sass/global.scss */
 #colorbox #cboxNext:hover {
   background-position: -74px -25px !important;
 }
-/* line 2199, sass/global.scss */
+/* line 2202, sass/global.scss */
 #colorbox #cboxPrevious {
   background: url(../images/colorboxControls.png) no-repeat -50px 0 !important;
 }
-/* line 2201, sass/global.scss */
+/* line 2204, sass/global.scss */
 #colorbox #cboxPrevious:hover {
   background-position: -50px -25px !important;
 }
-/* line 2205, sass/global.scss */
+/* line 2208, sass/global.scss */
 #colorbox #cboxClose {
   background: url(../images/colorboxControls.png) no-repeat -25px 0 !important;
 }
-/* line 2207, sass/global.scss */
+/* line 2210, sass/global.scss */
 #colorbox #cboxClose:hover {
   background-position: -25px -25px !important;
 }
-/* line 2211, sass/global.scss */
+/* line 2214, sass/global.scss */
 #colorbox #cboxCurrent {
   color: #222222;
   bottom: 0;
   left: 64px;
 }
-/* line 2216, sass/global.scss */
+/* line 2219, sass/global.scss */
 #colorbox #cboxTitle {
   bottom: 0;
   color: #222222;

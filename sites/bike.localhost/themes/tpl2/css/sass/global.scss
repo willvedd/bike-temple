@@ -985,7 +985,7 @@ li{
 					a{
 						background-color: #9E1B34;
 						color: #FFF;
-						padding: 6px;
+						padding: 5px;
 						border-radius: 2px;
 						float: right;
 						-moz-transition:background-color .3s, -moz-transform .3s;
@@ -1045,7 +1045,7 @@ li{
 	/*==========MAIN CONTENT==========*/
 
 	.front #zone-content-wrapper {
-		padding:2em 0;
+		padding:0;
 	}
 	.not-front #zone-content{
 		background-color:$white;
@@ -1754,7 +1754,7 @@ li{
 }
 
 #admin-menu .dropdown li{
-	font-size: 1.3em;
+	font-size: 1em;
 }
 
 
@@ -1773,7 +1773,7 @@ li{
 	.views-row p{
 		font-size: 2.5em;
 		color: $white;
-		padding: 2em 0 1.5em 0;
+		padding: 1.5em 0 0 0;
 		text-align: justify;
 		
 	}
@@ -1869,18 +1869,19 @@ li{
 	
 	.views-field-field-start-date-1{
 		float: left;
-		margin-right: 1.5em;
-		margin-bottom: 1.5em;
+		margin-right: 1em;
+		margin-bottom: 1em;
 	}
 	
 		.views-field-title{
-		font-size: 1.8em;
+		font-size: 1.2em;
+		line-height: 1em;
 	}
 	.views-field-description{
 		font-size: 1.8em;
 	}
 	div.views-field-field-description{
-		margin-top: -1em;
+		margin-top: -1.7em;
 	}
 	.field-link-text{
 		float: right;
@@ -1895,7 +1896,7 @@ li{
 	height: 55px;
 	background-color: $templeRed;
 	text-align: center;
-	padding-top: .5em;
+	padding-top: .2em;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -1903,11 +1904,11 @@ li{
 	font-weight: bold;
 	
 		.month{
-			font-size: 1.8em;
+			font-size: 1.125em;
 		}
 		.day{
-			font-size: 3em;
-			line-height: .7em;
+			font-size: 1.875em;
+			line-height: .6em;
 		}
 	}
 .page-events{
@@ -2039,21 +2040,22 @@ li{
 	}
 	.datebox{
 		float: left;
-		margin: 0 2em 1.5em 0;
+		margin: 0 1.5em 1.5em 0;
 	}
 	.views-field-field-start-time{
 		display: inline;
-		font-size: 1.4em;
+		font-size: 1em;
 	}
 	.views-field-field-end-time{
 		display: inline;
-		font-size: 1.4em;
+		font-size: 1em;
 
 	}
 	.field-description{
 		margin-top: .5em;
 		p{
 			text-align: justify;
+			font-size: 1em;
 		}
 	}
 }
@@ -2100,7 +2102,8 @@ a.archivelink{
 	}
 }
 .tweet{
-		padding: 1em 0;
+		padding: .5em 0;
+		font-size: 1.6em;
 	p{
 		margin-bottom: .5em;
 	}
