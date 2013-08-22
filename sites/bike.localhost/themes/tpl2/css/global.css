@@ -152,8 +152,8 @@ h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0;
   font-weight: 700;
-  font-size: 1.6em;
-  line-height: 1.6em;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
   margin: 0;
 }
 
@@ -181,8 +181,8 @@ a:hover {
 
 /* line 301, sass/global.scss */
 p {
-  font-size: 1.6em;
-  margin-bottom: 20px;
+  font-size: 1.6rem;
+  margin-bottom: 20rem;
 }
 
 /* line 305, sass/global.scss */
@@ -533,8 +533,8 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   -webkit-transition: background-color .2s, -webkit-transform .2s;
   -o-transition: background-color .2s, -o-transform .2s;
   transition: background-color .2s,transform .2s;
-  font-size: 1.25em;
-  line-height: 1.5em;
+  font-size: 1.6rem;
+  line-height: 1.7rem;
 }
 /* line 606, sass/global.scss */
 #zone-menu-wrapper #region-menu #superfish-1 li .sf-depth-2:hover, #zone-menu-wrapper #region-menu #mobile-menu li .sf-depth-2:hover {
@@ -2296,12 +2296,12 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 }
 /* line 1901, sass/global.scss */
 .datebox .month {
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 /* line 1904, sass/global.scss */
 .datebox .day {
-  font-size: 3em;
-  line-height: .7em;
+  font-size: 3rem;
+  line-height: .7rem;
 }
 
 /* line 1911, sass/global.scss */
@@ -2474,12 +2474,12 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 /* line 2040, sass/global.scss */
 .page-events .views-field-field-start-time {
   display: inline;
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 /* line 2044, sass/global.scss */
 .page-events .views-field-field-end-time {
   display: inline;
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 /* line 2049, sass/global.scss */
 .page-events .field-description {

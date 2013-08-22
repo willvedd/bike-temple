@@ -274,8 +274,8 @@ h1, h2 {
 
 h3, h4, h5, h6 {
 	@include droidBld;
-	font-size:1.6em;
-	line-height:1.6em;
+	font-size:1.8rem;
+	line-height:1.8rem;
 	margin:0;
 }
 
@@ -299,8 +299,8 @@ a:hover {
 }
 
 p {
-	font-size: 1.6em;
-	margin-bottom: 20px;
+	font-size: 1.6rem;
+	margin-bottom: 20rem;
 }
 li{
 	font-size: 1.6rem;
@@ -600,8 +600,8 @@ li{
 					    -webkit-transition:background-color .2s, -webkit-transform .2s;
 					    -o-transition:background-color .2s, -o-transform .2s;
 					    transition:background-color .2s,transform .2s;
-						font-size: 1.25em;
-						line-height: 1.5em;
+						font-size: 1.6rem;
+						line-height: 1.7rem;
 						
 						&:hover{
 							background-color:shade($templeRed,20%);
@@ -1899,11 +1899,11 @@ li{
 	font-weight: bold;
 	
 		.month{
-			font-size: 1.8em;
+			font-size: 1.8rem;
 		}
 		.day{
-			font-size: 3em;
-			line-height: .7em;
+			font-size: 3rem;
+			line-height: .7rem;
 		}
 	}
 .page-events{
@@ -2039,11 +2039,11 @@ li{
 	}
 	.views-field-field-start-time{
 		display: inline;
-		font-size: 1.4em;
+		font-size: 1.4rem;
 	}
 	.views-field-field-end-time{
 		display: inline;
-		font-size: 1.4em;
+		font-size: 1.4rem;
 
 	}
 	.field-description{
