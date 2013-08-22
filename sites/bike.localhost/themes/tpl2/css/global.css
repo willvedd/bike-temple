@@ -533,8 +533,8 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
   -webkit-transition: background-color .2s, -webkit-transform .2s;
   -o-transition: background-color .2s, -o-transform .2s;
   transition: background-color .2s,transform .2s;
-  font-size: 1.6rem;
-  line-height: 1.7rem;
+  font-size: 1.7rem;
+  line-height: 2rem;
 }
 /* line 606, sass/global.scss */
 #zone-menu-wrapper #region-menu #superfish-1 li .sf-depth-2:hover, #zone-menu-wrapper #region-menu #mobile-menu li .sf-depth-2:hover {
@@ -562,7 +562,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 #zone-menu-wrapper #region-menu #superfish-1 ul li a, #zone-menu-wrapper #region-menu #mobile-menu ul li a {
   text-align: left;
   font-size: 1.4;
-  padding: 3%;
+  padding: 1rem;
   text-transform: capitalize;
   font-size: 1em;
   letter-spacing: .1em;

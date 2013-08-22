@@ -600,8 +600,8 @@ li{
 					    -webkit-transition:background-color .2s, -webkit-transform .2s;
 					    -o-transition:background-color .2s, -o-transform .2s;
 					    transition:background-color .2s,transform .2s;
-						font-size: 1.6rem;
-						line-height: 1.7rem;
+						font-size: 1.7rem;
+						line-height: 2rem;
 						
 						&:hover{
 							background-color:shade($templeRed,20%);
@@ -623,7 +623,7 @@ li{
 						a {
 							text-align:left;
 							font-size:1.4;
-							padding: 3%;
+							padding: 1rem;
 							text-transform:capitalize;
 							font-size: 1em;
 							letter-spacing: .1em;
