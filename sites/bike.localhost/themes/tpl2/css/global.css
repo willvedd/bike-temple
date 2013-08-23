@@ -2328,7 +2328,7 @@ h1.site-name a, h1.site-name a:hover, h2.site-name a, h2.site-name a:hover {
 /* line 1925, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li a, .page-events .view-internal-news-feed ul li a {
   display: inline;
-  font-size: .6em;
+  font-size: 1.2em;
 }
 /* line 1929, sass/global.scss */
 .page-events .view-internal-calendar-feed ul li span, .page-events .view-internal-news-feed ul li span {
