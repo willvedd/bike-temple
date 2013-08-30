@@ -181,8 +181,8 @@ a:hover {
 
 /* line 301, sass/global.scss */
 p {
-  font-size: 1.6em;
-  margin-bottom: 2em;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 /* line 305, sass/global.scss */
@@ -192,7 +192,7 @@ p {
 
 /* line 308, sass/global.scss */
 li {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 /*==========HEADER==========*/
