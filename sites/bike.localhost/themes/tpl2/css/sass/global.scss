@@ -926,6 +926,9 @@ li{
 
 /*===========SLIDER 2 ================*/
 #zone-slider{
+
+	margin-bottom: 40px;
+	
 	.region-slider{
 		box-shadow: 0 3px 6px $shadow;
 		
@@ -1766,7 +1769,6 @@ li{
 
 #zone-intermediate-wrapper{
 	background-color: $introbg;
-	margin: 40px 0;
 	box-shadow: 0 3px 6px $shadow;
 	
 	#zone-intermediate{
@@ -1842,6 +1844,9 @@ li{
 
 /* Homepage Blocks -both */
 .front #zone-content{
+
+	margin-top: 40px;
+	margin-bottom: 40px;
 	
 	.region{
 	background-color: $white;
